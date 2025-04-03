@@ -1,0 +1,30 @@
+.mailbox-list {
+  padding: 2rem;
+}
+
+.mailboxes-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.mail-box {
+  aspect-ratio: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f0f0f0;
+  border: 2px solid #333;
+  border-radius: 8px;
+  text-decoration: none;
+  color: #333;
+  font-size: 1.5rem;
+  font-weight: bold;
+  transition: transform 0.2s;
+}
+
+.mail-box:hover {
+  transform: scale(1.05);
+  background-color: #e0e0e0;
+} 
